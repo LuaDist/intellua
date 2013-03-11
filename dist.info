@@ -1,0 +1,14 @@
+--- This file is part of LuaDist project
+
+name = "intellua"
+version = "1.0"
+
+desc = "An intelligent replacement for Lua require - automatically install packages from LuaDist"
+license = "MIT/X11"
+url = "http://github.com/LuaDist/intellua"
+maintainer = "Michal Kottman"
+author = "Michal Kottman"
+
+depends = {
+	"lua ~> 5.1"
+}
