@@ -1,7 +1,7 @@
 --- This file is part of LuaDist project
 
 name = "intellua"
-version = "1.0"
+version = "1.1"
 
 desc = "An intelligent replacement for Lua require - automatically install packages from LuaDist"
 license = "MIT/X11"

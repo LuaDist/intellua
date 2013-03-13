@@ -10,4 +10,4 @@ include ( cmake/dist.cmake )
 include ( lua )
 
 install_lua_module ( intellua intellua.lua )
-
+install_lua_module ( intellua.modules modules.lua )
