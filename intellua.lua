@@ -10,7 +10,7 @@ local newrequire = function(mod)
 		local where = modules[mod]
 		if type(where) == "string" then
 			assert(dist.install(where))
-		else
+		elseif type(where) == "table" then
 			io.write('The module "', mod, '" is provided by the following packages: ')
 			for i,m in ipairs(where) do
 				io.write(m, ' ')
